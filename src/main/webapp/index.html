@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Create your Account</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+	<script src="js/json.js"></script>
+</head>
+<body>
+	<form id="form" action="servlet" method="post">
+		<section class="form-register">
+			<h4>Create your Account</h4>
+			<input class="controls" type="text" name="name" id="name" placeholder="Full Name" required>
+			<input class="controls" type="email" name="email" id="email" placeholder="Example@gmail.com" required>
+			<input class="controls" type="password" name="pwd" id="pwd" placeholder="Password" required>
+			<input class="controls" type="password" name="pwd1" id="pwd1" placeholder="Confirm Password" required>	
+			<input class="botons"type="submit" value="Register">
+			<div id="error" class="error"></div>
+			<a  href="login.html">Sign for up</a>
+			
+		</section>
+	</form>
+</body>
+</html>
